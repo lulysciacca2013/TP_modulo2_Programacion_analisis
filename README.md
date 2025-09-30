@@ -67,8 +67,9 @@ tp_modulo2_Programacion_analisis/
 ## DATOS DEL PROYECTO:
 
 ### Materia: Programación Avanzada en Ciencia de datos
-### Profesor: 
-### Trabajo realizado por LUCIA JOSEFINA SCIACCA
+### Profesor: JUAN CARLOS CIFUENTES DURAN
+### Trabajo realizado por: LUCIA JOSEFINA SCIACCA
+### Año: 2025
 
 
 
