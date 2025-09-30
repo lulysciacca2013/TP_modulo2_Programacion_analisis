@@ -5,13 +5,21 @@ Este trabajo práctico consiste en la construcción de un **dashboard interactiv
 ## Contenido del repositorio:
 
 tp_modulo2_Programacion_analisis/
+
 ├── data/2020-2025.csv  (Dataset base)
+
 ├── db/dataset_2020_2025.db (Base de datos SQLite)
+
 ├── notebooks/tp_modulo2.ipynb # Notebook con el desarrollo
+
 ├── scripts/create_db.py (Script de creación de la base)
+
 ├── dashboard_integral.html (Dashboard exportado a HTML)
+
 ├── requirements.txt (Dependencias)
+
 └── README.md (Documentación)
+
 
 ## Cómo utilizar el proyecto:
 
@@ -24,14 +32,14 @@ tp_modulo2_Programacion_analisis/
 
    pip install -r requirements.txt
 
-3. Crear la base de datosen e
+3. Crear la base de datos en:
 
    python scripts/create_db.py
 
    (Opcional: en el repositorio en "db/dataset_2020_2025.db" está la base de datos creada, solamente habría que ponerla en la carpeta 
     content de la notebook que se corre en el colab)
 
-4. Abrir el dashboard
+4. Abrir el dashboard:
 
    - Desde Colab: abrir notebooks/tp_modulo2.ipynb
    - Desde navegador: abrir dashboard_integral.html
