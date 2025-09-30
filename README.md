@@ -1,1 +1,44 @@
 # TP_modulo2_Programacion_analisis
+
+Este trabajo práctico consiste en la construcción de un **dashboard interactivo** en Python utilizando **Plotly** y almacenando datos en **SQLite**.
+
+## Contenido del repositorio:
+
+tp_modulo2_Programacion_analisis/
+├── data/2020-2025.csv  (Dataset base)
+├── db/dataset_2020_2025.db (Base de datos SQLite)
+├── notebooks/tp_modulo2.ipynb # Notebook con el desarrollo
+├── scripts/create_db.py (Script de creación de la base)
+├── dashboard_integral.html (Dashboard exportado a HTML)
+├── requirements.txt (Dependencias)
+└── README.md (Documentación)
+
+## Cómo utilizar el proyecto:
+
+1. Clonar este repositorio  
+
+   git clone https://github.com/lulysciacca2013/TP_modulo2_Programacion_analisis.git
+   cd TP_modulo2_Programacion_analisis
+
+2. Instalar dependencias
+
+   pip install -r requirements.txt
+
+3. Crear la base de datosen e
+
+   python scripts/create_db.py
+
+   (Opcional: en el repositorio en "db/dataset_2020_2025.db" está la base de datos creada, solamente habría que ponerla en la carpeta 
+    content de la notebook que se corre en el colab)
+
+4. Abrir el dashboard
+
+   - Desde Colab: abrir notebooks/tp_modulo2.ipynb
+   - Desde navegador: abrir dashboard_integral.html
+
+## SCREENSHOTS
+
+
+
+
+   
