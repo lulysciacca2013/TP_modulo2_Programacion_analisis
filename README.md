@@ -39,16 +39,9 @@ tp_modulo2_Programacion_analisis/
    
    cd TP_modulo2_Programacion_analisis
 
-3. Instalar dependencias
+3. Crea archivo de dependencias
 
-   pip install -r requirements.txt
-
-4. Crear la base de datos en:
-
-   python scripts/create_db.py
-
-   (Opcional: en el repositorio en "db/dataset_2020_2025.db" está la base de datos creada, solamente habría que ponerla en la carpeta 
-    content de la notebook que se corre en el colab)
+   pip freeze > requirements.txt
 
 5. Abrir el dashboard:
 
