@@ -42,23 +42,24 @@ tp_modulo2_Programacion_analisis/
 
 ## Cómo utilizar el proyecto:
 
-1. Clonar este repositorio  
+1. Clonar este repositorio    
 
    git clone https://github.com/lulysciacca2013/TP_modulo2_Programacion_analisis.git
+   
    cd TP_modulo2_Programacion_analisis
 
-2. Instalar dependencias
+3. Instalar dependencias
 
    pip install -r requirements.txt
 
-3. Crear la base de datos en:
+4. Crear la base de datos en:
 
    python scripts/create_db.py
 
    (Opcional: en el repositorio en "db/dataset_2020_2025.db" está la base de datos creada, solamente habría que ponerla en la carpeta 
     content de la notebook que se corre en el colab)
 
-4. Abrir el dashboard:
+5. Abrir el dashboard:
 
    - Desde Colab: abrir notebooks/tp_modulo2.ipynb
    - Desde navegador: abrir dashboard_integral.html
