@@ -12,7 +12,7 @@ https://www.kaggle.com/datasets/codebynadiia/gdp-per-country-20202025/data   (Da
 El  archivo contiene  datos anuales del Producto Interno Bruto (PIB) de todos los países reconocidos, correspondientes al período 2020-2025. Se excluyen los territorios en disputa. El conjunto de datos se compila a partir de fuentes del FMI y es ideal para estudiar las tendencias económicas mundiales, pronosticar y analizar el crecimiento o la caída de las economías individuales durante este período.
 Los datos del año 2025 son estimaciones y estarán disponibles el próximo año.
 
-El Dataset se encuentra en la carpeta Data/20220-2025.csv  de este repositorio
+El Dataset se encuentra en la carpeta Data/2020-2025.csv  de este repositorio
 
 ## Contenido del repositorio:
 
@@ -36,17 +36,40 @@ tp_modulo2_Programacion_analisis/
 1. Clonar este repositorio    
 
    git clone https://github.com/lulysciacca2013/TP_modulo2_Programacion_analisis.git
-   
-   cd TP_modulo2_Programacion_analisis
 
-3. Crea archivo de dependencias
+2. Directamente abrir en colab  la notebook "tp_modulo2.ipynb"
+
+3. La primera ejecucion consiste en la lectura del dataset que se encuentra en este mismo repositorio
+   en la carpeta "Data/2020-2025.csv"
+
+4. Luego se procederá a crear y poblar la base de datos de SQLLite:
+
+   Se crean 2 tablas (wide y long, según el tipo de análisis)
+   
+   El script (create_db.py)se encuentra embebido en el codigo de la notebook, también se encuentra en la carpeta
+   "script/create_db.py" por si se desea consultarlo.
+   
+5. Luego se crean 2 KPIs de datos relevantes:
+
+   * KPI 1: muestra la suma global de valores para el año seleccionado.
+   * KPI 2: muestra el país líder en ese año y su valor.
+
+6. Luego se realizan 3 gráficos:
+   * Gráfico de barras comparativo por año con dropdown por año
+   * Gráfico de líneas con dropdown de país
+   * Mapa mundial (Choropleth) animado
+
+7. Como último Paso se descarga´:
+
+   - Desde Colab: en la carpeta content local del proyecto
+   - Desde navegador: abrir dashboard_integral.html (el archivo que se generó desde la notebook)
+
+    
+8. Como último paso se crea un archivo de dependencias
 
    pip freeze > requirements.txt
 
-5. Abrir el dashboard:
 
-   - Desde Colab: abrir notebooks/tp_modulo2.ipynb
-   - Desde navegador: abrir dashboard_integral.html
 
 ## DATOS DEL PROYECTO:
 
